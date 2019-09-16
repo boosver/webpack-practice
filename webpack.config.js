@@ -3,7 +3,7 @@ module.exports = {
     entry: './src/main.js',
     //制定打包文件的目录
     output: {
-        path: __dirname + '/dist/js',
+        path: __dirname + '/dist',
         filename: 'bundle.js'
     }
 
